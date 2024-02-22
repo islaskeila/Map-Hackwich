@@ -11,6 +11,7 @@
 		E2719AD02B864F900059C9B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2719ACF2B864F900059C9B5 /* ContentView.swift */; };
 		E2719AD22B864F9D0059C9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2719AD12B864F9D0059C9B5 /* Assets.xcassets */; };
 		E2719AD52B864F9D0059C9B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2719AD42B864F9D0059C9B5 /* Preview Assets.xcassets */; };
+		E2719ADC2B87A3490059C9B5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2719ADB2B87A3490059C9B5 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E2719ACF2B864F900059C9B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2719AD12B864F9D0059C9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2719AD42B864F9D0059C9B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2719ADB2B87A3490059C9B5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E2719ACD2B864F900059C9B5 /* Map_HackwichApp.swift */,
 				E2719ACF2B864F900059C9B5 /* ContentView.swift */,
+				E2719ADB2B87A3490059C9B5 /* LocationManager.swift */,
 				E2719AD12B864F9D0059C9B5 /* Assets.xcassets */,
 				E2719AD32B864F9D0059C9B5 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				E2719AD02B864F900059C9B5 /* ContentView.swift in Sources */,
 				E2719ACE2B864F900059C9B5 /* Map_HackwichApp.swift in Sources */,
+				E2719ADC2B87A3490059C9B5 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = 6MS443HR8T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = 6MS443HR8T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
